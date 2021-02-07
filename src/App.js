@@ -3,8 +3,8 @@ import Layout from './component/Layout/Layout'
 import BurgerBuilder from './containers/BurgerBuilder/BurgerBuilder'
 
 class App extends Component {
-  render(){
-    return (
+  render() {
+    return ( 
       <Layout>
         <BurgerBuilder/>
       </Layout>
