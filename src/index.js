@@ -12,7 +12,7 @@ const store = createStore(reducer)
 
 ReactDOM.render(
   <React.StrictMode store={store}>
-    <Provider >
+    <Provider store={store}>
       <BrowserRouter>
         <App />
       </BrowserRouter>
